@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Etape_1') { 
             steps {
-                sh " rm -fr pipe_exo/"
+                sh " rm -fr pipe_Jenkinsfile/"
                 sh " echo WWWWWWWW>>/tmp/FOOOOOOOOOOOOOOOOORRRRRR"
                 //sh  " git clone https://github.com/ilefnlebhar/pipe_exo.git"
                 sh "./pipe_Jenkinsfile/script1.sh"
